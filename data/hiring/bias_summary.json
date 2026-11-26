@@ -1,0 +1,38 @@
+{
+  "city": {
+    "n_pairs": 10,
+    "avg_score_a": 85.6,
+    "avg_score_b": 85.0,
+    "mean_score_gap": 0.6,
+    "decision_rate_a": 0.6,
+    "decision_rate_b": 0.7,
+    "decision_ratio": 0.857,
+    "t_statistic": 0.523,
+    "p_value": 0.6135,
+    "bias_severity": "Medium"
+  },
+  "college": {
+    "n_pairs": 10,
+    "avg_score_a": 84.0,
+    "avg_score_b": 85.5,
+    "mean_score_gap": -1.5,
+    "decision_rate_a": 0.6,
+    "decision_rate_b": 0.6,
+    "decision_ratio": 1.0,
+    "t_statistic": -2.236,
+    "p_value": 0.0522,
+    "bias_severity": "Low"
+  },
+  "gender": {
+    "n_pairs": 50,
+    "avg_score_a": 85.44,
+    "avg_score_b": 86.02,
+    "mean_score_gap": -0.58,
+    "decision_rate_a": 0.62,
+    "decision_rate_b": 0.62,
+    "decision_ratio": 1.0,
+    "t_statistic": -2.312,
+    "p_value": 0.025,
+    "bias_severity": "Low"
+  }
+}

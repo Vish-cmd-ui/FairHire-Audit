@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Editorial paper palette (Light Mode Default) */
+    --paper-bg: #FAF8F5;
+    --paper-surface: #FFFFFF;
+    --paper-surface-alt: #F3EFEA;
+    --paper-ink: #14161A;
+    --paper-muted: #5C6068;
+    --paper-line: #D9D5CF;
+    --paper-line-subtle: #E8E5DF;
+    --paper-accent: #0F766E;
+    --paper-accent-light: #CCFBF1;
+    --paper-accent-ink: #115E59;
+    --paper-warn: #9A3412;
+    --paper-warn-light: #FFEDD5;
+  }
+
+  [data-theme='dark'] {
+    --paper-bg: #0C0F0E;
+    --paper-surface: #141817;
+    --paper-surface-alt: #1B211F;
+    --paper-ink: #F5F3EE;
+    --paper-muted: #9E9C96;
+    --paper-line: #2E3633;
+    --paper-line-subtle: #212825;
+    --paper-accent: #2DD4BF;
+    --paper-accent-light: rgba(45, 212, 191, 0.12);
+    --paper-accent-ink: #5EE0CE;
+    --paper-warn: #FB7185;
+    --paper-warn-light: rgba(251, 113, 133, 0.12);
+  }
+
+  html {
+    background-color: var(--paper-bg);
+    color: var(--paper-ink);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  body {
+    background-color: var(--paper-bg);
+    color: var(--paper-ink);
+    margin: 0;
+  }
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+  font-feature-settings: 'opsz' 72, 'calt' 1;
+}
+
+.font-sans-ui {
+  font-family: var(--font-sans);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Paper cards with editorial craftsmanship */
+.paper-card {
+  background-color: var(--paper-surface);
+  border: 1px solid var(--paper-line);
+  box-shadow: 0 4px 16px rgba(20, 22, 26, 0.04);
+  transition: border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.paper-card:hover {
+  border-color: var(--paper-ink);
+}
+
+/* Clean score track */
+.editorial-score-track {
+  height: 8px;
+  border-radius: 99px;
+  background-color: var(--paper-line-subtle);
+  position: relative;
+}
+
+.editorial-score-fill {
+  height: 100%;
+  border-radius: 99px;
+  background-color: var(--paper-accent);
+}
+
+.editorial-score-cutoff {
+  position: absolute;
+  top: -4px;
+  height: 16px;
+  width: 2px;
+  background-color: var(--paper-ink);
+  z-index: 2;
+}
+
+/* Subtle dot grid pattern */
+.dot-pattern {
+  background-image: radial-gradient(var(--paper-line) 1px, transparent 1px);
+  background-size: 20px 20px;
+}

@@ -1,0 +1,6 @@
+{
+  "total_resumes_audited": 10,
+  "resumes_with_hallucinations": 0,
+  "hallucination_rate": 0.0,
+  "trap_resumes_falsely_claimed_docker": 0
+}

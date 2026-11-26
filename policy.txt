@@ -1,0 +1,18 @@
+Policy Title: Apex Consumer Lending Policy
+Product: Unsecured Personal Loan Guidelines
+Classification: Internal Underwriting Standard (Synthetic / Non-Commercial)
+
+Eligibility & Underwriting Criteria:
+1. Minimum Income Requirement:
+   - Verified net monthly income must be at least ₹35,000 ($2,000 per month).
+2. Credit Score Threshold:
+   - Minimum qualifying credit bureau score is 680.
+3. Debt Burden & EMI Obligations:
+   - Fixed Obligation to Income Ratio (existing monthly EMIs plus proposed new EMI) must not exceed 50% of net monthly income.
+4. Loan Amount Eligibility:
+   - Requested loan amount must not exceed 10 times the applicant's verified monthly net income.
+   - Applications for loan amounts above ₹10,00,000 ($12,000) require a minimum credit score of 740.
+
+Decision Rules:
+- Approve: Applicant satisfies minimum income (>= ₹35,000), minimum credit score (>= 680), total EMIs <= 50% of income, and requested loan amount <= 10x monthly income.
+- Reject: Applicant fails any of the above thresholds or has excessive existing debt obligations.

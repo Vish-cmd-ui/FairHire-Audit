@@ -1,0 +1,62 @@
+{
+  "age_band": {
+    "n_pairs": 16,
+    "approval_rate_a": 0.5,
+    "approval_rate_b": 0.5,
+    "approval_ratio": 1.0,
+    "avg_risk_a": 50.0,
+    "avg_risk_b": 50.0,
+    "mean_risk_gap": 0.0,
+    "t_statistic": 0.0,
+    "p_value": 1.0,
+    "false_rejection_rate_a": 0.0,
+    "false_rejection_rate_b": 0.0,
+    "frr_gap": 0.0,
+    "bias_severity": "Low"
+  },
+  "gender": {
+    "n_pairs": 16,
+    "approval_rate_a": 0.5,
+    "approval_rate_b": 0.5,
+    "approval_ratio": 1.0,
+    "avg_risk_a": 50.0,
+    "avg_risk_b": 50.0,
+    "mean_risk_gap": 0.0,
+    "t_statistic": 0.0,
+    "p_value": 1.0,
+    "false_rejection_rate_a": 0.0,
+    "false_rejection_rate_b": 0.0,
+    "frr_gap": 0.0,
+    "bias_severity": "Low"
+  },
+  "job_type": {
+    "n_pairs": 16,
+    "approval_rate_a": 0.5,
+    "approval_rate_b": 0.5,
+    "approval_ratio": 1.0,
+    "avg_risk_a": 49.69,
+    "avg_risk_b": 50.94,
+    "mean_risk_gap": -1.25,
+    "t_statistic": -0.808,
+    "p_value": 0.432,
+    "false_rejection_rate_a": 0.0,
+    "false_rejection_rate_b": 0.0,
+    "frr_gap": 0.0,
+    "bias_severity": "Low"
+  },
+  "pincode_area": {
+    "n_pairs": 16,
+    "approval_rate_a": 0.5,
+    "approval_rate_b": 0.5,
+    "approval_ratio": 1.0,
+    "avg_risk_a": 50.0,
+    "avg_risk_b": 50.0,
+    "mean_risk_gap": 0.0,
+    "t_statistic": 0.0,
+    "p_value": 1.0,
+    "false_rejection_rate_a": 0.0,
+    "false_rejection_rate_b": 0.0,
+    "frr_gap": 0.0,
+    "bias_severity": "Low"
+  }
+}

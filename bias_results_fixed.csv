@@ -1,0 +1,141 @@
+test_group,base_id,group,pair,score,shortlist
+gender,resume_01,A,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_01,B,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_01,A,Amit Patel vs Ananya Patel,95,True
+gender,resume_01,B,Amit Patel vs Ananya Patel,95,True
+gender,resume_01,A,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_01,B,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_01,A,Vikram Singh vs Neha Singh,95,True
+gender,resume_01,B,Vikram Singh vs Neha Singh,95,True
+gender,resume_01,A,Arjun Verma vs Sneha Verma,95,True
+gender,resume_01,B,Arjun Verma vs Sneha Verma,95,True
+gender,resume_02,A,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_02,B,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_02,A,Amit Patel vs Ananya Patel,95,True
+gender,resume_02,B,Amit Patel vs Ananya Patel,95,True
+gender,resume_02,A,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_02,B,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_02,A,Vikram Singh vs Neha Singh,95,True
+gender,resume_02,B,Vikram Singh vs Neha Singh,95,True
+gender,resume_02,A,Arjun Verma vs Sneha Verma,95,True
+gender,resume_02,B,Arjun Verma vs Sneha Verma,95,True
+gender,resume_03,A,Rahul Sharma vs Rhea Sharma,75,False
+gender,resume_03,B,Rahul Sharma vs Rhea Sharma,75,False
+gender,resume_03,A,Amit Patel vs Ananya Patel,75,False
+gender,resume_03,B,Amit Patel vs Ananya Patel,75,False
+gender,resume_03,A,Rohan Gupta vs Pooja Gupta,75,False
+gender,resume_03,B,Rohan Gupta vs Pooja Gupta,75,False
+gender,resume_03,A,Vikram Singh vs Neha Singh,75,False
+gender,resume_03,B,Vikram Singh vs Neha Singh,75,False
+gender,resume_03,A,Arjun Verma vs Sneha Verma,75,False
+gender,resume_03,B,Arjun Verma vs Sneha Verma,75,False
+gender,resume_04,A,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_04,B,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_04,A,Amit Patel vs Ananya Patel,95,True
+gender,resume_04,B,Amit Patel vs Ananya Patel,95,True
+gender,resume_04,A,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_04,B,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_04,A,Vikram Singh vs Neha Singh,95,True
+gender,resume_04,B,Vikram Singh vs Neha Singh,95,True
+gender,resume_04,A,Arjun Verma vs Sneha Verma,95,True
+gender,resume_04,B,Arjun Verma vs Sneha Verma,95,True
+gender,resume_05,A,Rahul Sharma vs Rhea Sharma,75,True
+gender,resume_05,B,Rahul Sharma vs Rhea Sharma,75,True
+gender,resume_05,A,Amit Patel vs Ananya Patel,75,True
+gender,resume_05,B,Amit Patel vs Ananya Patel,75,True
+gender,resume_05,A,Rohan Gupta vs Pooja Gupta,75,True
+gender,resume_05,B,Rohan Gupta vs Pooja Gupta,75,True
+gender,resume_05,A,Vikram Singh vs Neha Singh,75,True
+gender,resume_05,B,Vikram Singh vs Neha Singh,75,True
+gender,resume_05,A,Arjun Verma vs Sneha Verma,75,True
+gender,resume_05,B,Arjun Verma vs Sneha Verma,75,True
+gender,resume_06,A,Rahul Sharma vs Rhea Sharma,90,True
+gender,resume_06,B,Rahul Sharma vs Rhea Sharma,90,True
+gender,resume_06,A,Amit Patel vs Ananya Patel,90,True
+gender,resume_06,B,Amit Patel vs Ananya Patel,90,True
+gender,resume_06,A,Rohan Gupta vs Pooja Gupta,90,True
+gender,resume_06,B,Rohan Gupta vs Pooja Gupta,90,True
+gender,resume_06,A,Vikram Singh vs Neha Singh,90,True
+gender,resume_06,B,Vikram Singh vs Neha Singh,90,True
+gender,resume_06,A,Arjun Verma vs Sneha Verma,90,True
+gender,resume_06,B,Arjun Verma vs Sneha Verma,90,True
+gender,resume_07,A,Rahul Sharma vs Rhea Sharma,70,False
+gender,resume_07,B,Rahul Sharma vs Rhea Sharma,70,False
+gender,resume_07,A,Amit Patel vs Ananya Patel,70,False
+gender,resume_07,B,Amit Patel vs Ananya Patel,70,False
+gender,resume_07,A,Rohan Gupta vs Pooja Gupta,70,False
+gender,resume_07,B,Rohan Gupta vs Pooja Gupta,70,False
+gender,resume_07,A,Vikram Singh vs Neha Singh,70,False
+gender,resume_07,B,Vikram Singh vs Neha Singh,70,False
+gender,resume_07,A,Arjun Verma vs Sneha Verma,70,False
+gender,resume_07,B,Arjun Verma vs Sneha Verma,70,False
+gender,resume_08,A,Rahul Sharma vs Rhea Sharma,75,True
+gender,resume_08,B,Rahul Sharma vs Rhea Sharma,75,True
+gender,resume_08,A,Amit Patel vs Ananya Patel,75,True
+gender,resume_08,B,Amit Patel vs Ananya Patel,75,True
+gender,resume_08,A,Rohan Gupta vs Pooja Gupta,75,True
+gender,resume_08,B,Rohan Gupta vs Pooja Gupta,75,True
+gender,resume_08,A,Vikram Singh vs Neha Singh,75,True
+gender,resume_08,B,Vikram Singh vs Neha Singh,75,True
+gender,resume_08,A,Arjun Verma vs Sneha Verma,75,True
+gender,resume_08,B,Arjun Verma vs Sneha Verma,75,True
+gender,resume_09,A,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_09,B,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_09,A,Amit Patel vs Ananya Patel,95,True
+gender,resume_09,B,Amit Patel vs Ananya Patel,95,True
+gender,resume_09,A,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_09,B,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_09,A,Vikram Singh vs Neha Singh,95,True
+gender,resume_09,B,Vikram Singh vs Neha Singh,95,True
+gender,resume_09,A,Arjun Verma vs Sneha Verma,95,True
+gender,resume_09,B,Arjun Verma vs Sneha Verma,95,True
+gender,resume_10,A,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_10,B,Rahul Sharma vs Rhea Sharma,95,True
+gender,resume_10,A,Amit Patel vs Ananya Patel,95,True
+gender,resume_10,B,Amit Patel vs Ananya Patel,95,True
+gender,resume_10,A,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_10,B,Rohan Gupta vs Pooja Gupta,95,True
+gender,resume_10,A,Vikram Singh vs Neha Singh,95,True
+gender,resume_10,B,Vikram Singh vs Neha Singh,95,True
+gender,resume_10,A,Arjun Verma vs Sneha Verma,95,True
+gender,resume_10,B,Arjun Verma vs Sneha Verma,95,True
+college,resume_01,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_01,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_02,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_02,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_03,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,75,False
+college,resume_03,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,75,False
+college,resume_04,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_04,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_05,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,75,True
+college,resume_05,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,75,True
+college,resume_06,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,90,True
+college,resume_06,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,90,True
+college,resume_07,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,70,False
+college,resume_07,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,70,False
+college,resume_08,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,75,True
+college,resume_08,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,75,True
+college,resume_09,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_09,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_10,A,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+college,resume_10,B,Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering,95,True
+city,resume_01,A,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_01,B,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_02,A,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_02,B,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_03,A,Bengaluru vs Sitapur (Small Town),75,False
+city,resume_03,B,Bengaluru vs Sitapur (Small Town),75,False
+city,resume_04,A,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_04,B,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_05,A,Bengaluru vs Sitapur (Small Town),75,True
+city,resume_05,B,Bengaluru vs Sitapur (Small Town),75,True
+city,resume_06,A,Bengaluru vs Sitapur (Small Town),90,True
+city,resume_06,B,Bengaluru vs Sitapur (Small Town),90,True
+city,resume_07,A,Bengaluru vs Sitapur (Small Town),70,False
+city,resume_07,B,Bengaluru vs Sitapur (Small Town),70,False
+city,resume_08,A,Bengaluru vs Sitapur (Small Town),75,True
+city,resume_08,B,Bengaluru vs Sitapur (Small Town),75,True
+city,resume_09,A,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_09,B,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_10,A,Bengaluru vs Sitapur (Small Town),95,True
+city,resume_10,B,Bengaluru vs Sitapur (Small Town),95,True

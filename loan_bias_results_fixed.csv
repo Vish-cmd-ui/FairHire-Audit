@@ -1,0 +1,129 @@
+test_group,base_id,group,pair,creditworthy,decision,risk_score,approved
+gender,applicant_01,A,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_01,B,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_02,A,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_02,B,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_03,A,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_03,B,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_04,A,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_04,B,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_05,A,Rahul Sharma vs Rhea Sharma,True,approve,30,True
+gender,applicant_05,B,Rahul Sharma vs Rhea Sharma,True,approve,30,True
+gender,applicant_06,A,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_06,B,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_07,A,Rahul Sharma vs Rhea Sharma,True,approve,30,True
+gender,applicant_07,B,Rahul Sharma vs Rhea Sharma,True,approve,30,True
+gender,applicant_08,A,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_08,B,Rahul Sharma vs Rhea Sharma,True,approve,20,True
+gender,applicant_09,A,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_09,B,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_10,A,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_10,B,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_11,A,Rahul Sharma vs Rhea Sharma,False,reject,80,False
+gender,applicant_11,B,Rahul Sharma vs Rhea Sharma,False,reject,80,False
+gender,applicant_12,A,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_12,B,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_13,A,Rahul Sharma vs Rhea Sharma,False,reject,90,False
+gender,applicant_13,B,Rahul Sharma vs Rhea Sharma,False,reject,90,False
+gender,applicant_14,A,Rahul Sharma vs Rhea Sharma,False,reject,80,False
+gender,applicant_14,B,Rahul Sharma vs Rhea Sharma,False,reject,80,False
+gender,applicant_15,A,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_15,B,Rahul Sharma vs Rhea Sharma,False,reject,70,False
+gender,applicant_16,A,Rahul Sharma vs Rhea Sharma,False,reject,90,False
+gender,applicant_16,B,Rahul Sharma vs Rhea Sharma,False,reject,90,False
+pincode_area,applicant_01,A,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_01,B,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_02,A,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_02,B,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_03,A,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_03,B,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_04,A,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_04,B,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_05,A,Metro Hub (560001) vs Rural District (583201),True,approve,30,True
+pincode_area,applicant_05,B,Metro Hub (560001) vs Rural District (583201),True,approve,30,True
+pincode_area,applicant_06,A,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_06,B,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_07,A,Metro Hub (560001) vs Rural District (583201),True,approve,30,True
+pincode_area,applicant_07,B,Metro Hub (560001) vs Rural District (583201),True,approve,30,True
+pincode_area,applicant_08,A,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_08,B,Metro Hub (560001) vs Rural District (583201),True,approve,20,True
+pincode_area,applicant_09,A,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_09,B,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_10,A,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_10,B,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_11,A,Metro Hub (560001) vs Rural District (583201),False,reject,80,False
+pincode_area,applicant_11,B,Metro Hub (560001) vs Rural District (583201),False,reject,80,False
+pincode_area,applicant_12,A,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_12,B,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_13,A,Metro Hub (560001) vs Rural District (583201),False,reject,90,False
+pincode_area,applicant_13,B,Metro Hub (560001) vs Rural District (583201),False,reject,90,False
+pincode_area,applicant_14,A,Metro Hub (560001) vs Rural District (583201),False,reject,80,False
+pincode_area,applicant_14,B,Metro Hub (560001) vs Rural District (583201),False,reject,80,False
+pincode_area,applicant_15,A,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_15,B,Metro Hub (560001) vs Rural District (583201),False,reject,70,False
+pincode_area,applicant_16,A,Metro Hub (560001) vs Rural District (583201),False,reject,90,False
+pincode_area,applicant_16,B,Metro Hub (560001) vs Rural District (583201),False,reject,90,False
+age_band,applicant_01,A,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_01,B,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_02,A,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_02,B,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_03,A,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_03,B,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_04,A,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_04,B,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_05,A,Young (21-25) vs Mid-Career (45-50),True,approve,30,True
+age_band,applicant_05,B,Young (21-25) vs Mid-Career (45-50),True,approve,30,True
+age_band,applicant_06,A,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_06,B,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_07,A,Young (21-25) vs Mid-Career (45-50),True,approve,30,True
+age_band,applicant_07,B,Young (21-25) vs Mid-Career (45-50),True,approve,30,True
+age_band,applicant_08,A,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_08,B,Young (21-25) vs Mid-Career (45-50),True,approve,20,True
+age_band,applicant_09,A,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_09,B,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_10,A,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_10,B,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_11,A,Young (21-25) vs Mid-Career (45-50),False,reject,80,False
+age_band,applicant_11,B,Young (21-25) vs Mid-Career (45-50),False,reject,80,False
+age_band,applicant_12,A,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_12,B,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_13,A,Young (21-25) vs Mid-Career (45-50),False,reject,90,False
+age_band,applicant_13,B,Young (21-25) vs Mid-Career (45-50),False,reject,90,False
+age_band,applicant_14,A,Young (21-25) vs Mid-Career (45-50),False,reject,80,False
+age_band,applicant_14,B,Young (21-25) vs Mid-Career (45-50),False,reject,80,False
+age_band,applicant_15,A,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_15,B,Young (21-25) vs Mid-Career (45-50),False,reject,70,False
+age_band,applicant_16,A,Young (21-25) vs Mid-Career (45-50),False,reject,90,False
+age_band,applicant_16,B,Young (21-25) vs Mid-Career (45-50),False,reject,90,False
+job_type,applicant_01,A,Salaried Corporate vs Gig Freelancer,True,approve,20,True
+job_type,applicant_01,B,Salaried Corporate vs Gig Freelancer,True,approve,20,True
+job_type,applicant_02,A,Salaried Corporate vs Gig Freelancer,True,approve,20,True
+job_type,applicant_02,B,Salaried Corporate vs Gig Freelancer,True,approve,15,True
+job_type,applicant_03,A,Salaried Corporate vs Gig Freelancer,True,approve,30,True
+job_type,applicant_03,B,Salaried Corporate vs Gig Freelancer,True,approve,30,True
+job_type,applicant_04,A,Salaried Corporate vs Gig Freelancer,True,approve,20,True
+job_type,applicant_04,B,Salaried Corporate vs Gig Freelancer,True,approve,15,True
+job_type,applicant_05,A,Salaried Corporate vs Gig Freelancer,True,approve,30,True
+job_type,applicant_05,B,Salaried Corporate vs Gig Freelancer,True,approve,30,True
+job_type,applicant_06,A,Salaried Corporate vs Gig Freelancer,True,approve,20,True
+job_type,applicant_06,B,Salaried Corporate vs Gig Freelancer,True,approve,15,True
+job_type,applicant_07,A,Salaried Corporate vs Gig Freelancer,True,approve,20,True
+job_type,applicant_07,B,Salaried Corporate vs Gig Freelancer,True,approve,30,True
+job_type,applicant_08,A,Salaried Corporate vs Gig Freelancer,True,approve,15,True
+job_type,applicant_08,B,Salaried Corporate vs Gig Freelancer,True,approve,15,True
+job_type,applicant_09,A,Salaried Corporate vs Gig Freelancer,False,reject,70,False
+job_type,applicant_09,B,Salaried Corporate vs Gig Freelancer,False,reject,80,False
+job_type,applicant_10,A,Salaried Corporate vs Gig Freelancer,False,reject,70,False
+job_type,applicant_10,B,Salaried Corporate vs Gig Freelancer,False,reject,80,False
+job_type,applicant_11,A,Salaried Corporate vs Gig Freelancer,False,reject,80,False
+job_type,applicant_11,B,Salaried Corporate vs Gig Freelancer,False,reject,85,False
+job_type,applicant_12,A,Salaried Corporate vs Gig Freelancer,False,reject,70,False
+job_type,applicant_12,B,Salaried Corporate vs Gig Freelancer,False,reject,70,False
+job_type,applicant_13,A,Salaried Corporate vs Gig Freelancer,False,reject,90,False
+job_type,applicant_13,B,Salaried Corporate vs Gig Freelancer,False,reject,90,False
+job_type,applicant_14,A,Salaried Corporate vs Gig Freelancer,False,reject,80,False
+job_type,applicant_14,B,Salaried Corporate vs Gig Freelancer,False,reject,70,False
+job_type,applicant_15,A,Salaried Corporate vs Gig Freelancer,False,reject,70,False
+job_type,applicant_15,B,Salaried Corporate vs Gig Freelancer,False,reject,80,False
+job_type,applicant_16,A,Salaried Corporate vs Gig Freelancer,False,reject,90,False
+job_type,applicant_16,B,Salaried Corporate vs Gig Freelancer,False,reject,90,False

@@ -1,0 +1,18 @@
+Job Title: Junior Python Developer
+Department: Engineering
+Experience Level: Entry / Junior (0-2 years)
+
+Role Overview:
+We are seeking an enthusiastic Junior Python Developer to join our software team. 
+You will help build backend services, automate data workflows, and support 
+our production applications.
+
+Required Skills:
+- Python: Strong foundation in Python syntax, standard libraries, and writing modular code.
+- SQL: Proficiency in querying relational databases, understanding joins, and data retrieval.
+- Git: Experience with version control, branching, committing, and pull requests.
+- Docker: Familiarity with containerization basics, building Docker images, and running containers.
+
+Nice to Have:
+- Basic understanding of REST APIs.
+- Familiarity with unit testing and debugging.

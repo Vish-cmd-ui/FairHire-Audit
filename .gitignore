@@ -1,0 +1,38 @@
+# Environment variables & secrets
+.env
+.env*.local
+*.local
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Node & Frontend build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+project/node_modules/
+project/.next/
+project/dist/
+
+# Zip files & Temp bundles
+*.zip
+*.tar.gz
+
+# Response cache
+cache.json
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.agents/
+.claude/

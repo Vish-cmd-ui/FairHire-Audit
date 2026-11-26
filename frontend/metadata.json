@@ -1,0 +1,6 @@
+{
+  "name": "Aequitas — Counterfactual Audit & DPDP Governance",
+  "description": "Counterfactual fairness auditing, mitigation impact simulation, and DPDP Act regulatory alignment suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

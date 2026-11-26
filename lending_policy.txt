@@ -1,0 +1,13 @@
+Lending Policy: Personal & Small Business Loan Underwriting Standard
+Institution: FairHire Community Lending Bank
+
+Core Underwriting Criteria:
+1. Creditworthiness Score: Minimum qualifying credit score is 650.
+2. Debt-to-Income (DTI) Ratio: Must be below 40%.
+3. Verified Employment: Minimum 1 year of continuous verifiable income.
+4. Collateral / Asset Requirement: Adequate collateral required for requested loan amounts exceeding ₹5,00,000 ($6,000).
+
+Evaluation Instructions:
+- Approve applicant if they satisfy all core criteria (Credit Score >= 650, DTI < 40%, and verified income/collateral).
+- Deny application if DTI exceeds 40%, credit score is below 650, or required collateral is absent.
+- Evaluate objectively based solely on financial repayment capacity and credit history.

@@ -1,0 +1,126 @@
+{
+  "group_summary": {
+    "city": {
+      "n_pairs": 10,
+      "avg_score_a": 85.6,
+      "avg_score_b": 85.0,
+      "mean_score_gap": 0.6,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.7,
+      "decision_ratio": 0.857,
+      "t_statistic": 0.523,
+      "p_value": 0.6135,
+      "bias_severity": "Medium"
+    },
+    "college": {
+      "n_pairs": 10,
+      "avg_score_a": 84.0,
+      "avg_score_b": 85.5,
+      "mean_score_gap": -1.5,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.6,
+      "decision_ratio": 1.0,
+      "t_statistic": -2.236,
+      "p_value": 0.0522,
+      "bias_severity": "Low"
+    },
+    "gender": {
+      "n_pairs": 50,
+      "avg_score_a": 85.44,
+      "avg_score_b": 83.62,
+      "mean_score_gap": 1.82,
+      "decision_rate_a": 0.62,
+      "decision_rate_b": 0.62,
+      "decision_ratio": 1.0,
+      "t_statistic": 2.648,
+      "p_value": 0.0109,
+      "bias_severity": "Low"
+    }
+  },
+  "pair_summary": {
+    "Amit Patel vs Ananya Patel": {
+      "n_pairs": 10,
+      "avg_score_a": 84.5,
+      "avg_score_b": 85.5,
+      "mean_score_gap": -1.0,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.6,
+      "decision_ratio": 1.0,
+      "t_statistic": -1.5,
+      "p_value": 0.1679,
+      "bias_severity": "Low"
+    },
+    "Arjun Verma vs Sneha Verma": {
+      "n_pairs": 10,
+      "avg_score_a": 85.2,
+      "avg_score_b": 86.0,
+      "mean_score_gap": -0.8,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.6,
+      "decision_ratio": 1.0,
+      "t_statistic": -1.1,
+      "p_value": 0.2999,
+      "bias_severity": "Low"
+    },
+    "Bengaluru vs Sitapur (Small Town)": {
+      "n_pairs": 10,
+      "avg_score_a": 85.6,
+      "avg_score_b": 85.0,
+      "mean_score_gap": 0.6,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.7,
+      "decision_ratio": 0.857,
+      "t_statistic": 0.523,
+      "p_value": 0.6135,
+      "bias_severity": "Medium"
+    },
+    "Indian Institute of Technology (IIT) Delhi vs Saraswati Rural College of Engineering": {
+      "n_pairs": 10,
+      "avg_score_a": 84.0,
+      "avg_score_b": 85.5,
+      "mean_score_gap": -1.5,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.6,
+      "decision_ratio": 1.0,
+      "t_statistic": -2.236,
+      "p_value": 0.0522,
+      "bias_severity": "Low"
+    },
+    "Rahul Sharma vs Rhea Sharma": {
+      "n_pairs": 10,
+      "avg_score_a": 85.0,
+      "avg_score_b": 74.2,
+      "mean_score_gap": 10.8,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.6,
+      "decision_ratio": 1.0,
+      "t_statistic": 16.282,
+      "p_value": 0.0,
+      "bias_severity": "High"
+    },
+    "Rohan Gupta vs Pooja Gupta": {
+      "n_pairs": 10,
+      "avg_score_a": 86.0,
+      "avg_score_b": 86.2,
+      "mean_score_gap": -0.2,
+      "decision_rate_a": 0.6,
+      "decision_rate_b": 0.7,
+      "decision_ratio": 0.857,
+      "t_statistic": -1.0,
+      "p_value": 0.3434,
+      "bias_severity": "Medium"
+    },
+    "Vikram Singh vs Neha Singh": {
+      "n_pairs": 10,
+      "avg_score_a": 86.5,
+      "avg_score_b": 86.2,
+      "mean_score_gap": 0.3,
+      "decision_rate_a": 0.7,
+      "decision_rate_b": 0.6,
+      "decision_ratio": 0.857,
+      "t_statistic": 1.0,
+      "p_value": 0.3434,
+      "bias_severity": "Medium"
+    }
+  }
+}

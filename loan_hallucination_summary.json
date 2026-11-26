@@ -1,0 +1,276 @@
+{
+  "total_applications_audited": 16,
+  "applications_with_unsupported_claims": 0,
+  "hallucination_rate": 0.0,
+  "example_unsupported_claims": [
+    {
+      "type": "Adverse History Extrapolation",
+      "claimed": "Past loan delinquency or credit default",
+      "ground_truth": "Profile states credit score 640 without any recorded default.",
+      "excerpt": "Candidate rejected due to suspected default history on prior loans."
+    },
+    {
+      "type": "Credit Bureau Score Mismatch",
+      "claimed": "Credit Bureau Score 620",
+      "ground_truth": "Applicant stated Credit Score is 640.",
+      "excerpt": "Applicant's credit score of 620 fails to meet the 680 underwriting minimum."
+    },
+    {
+      "type": "Unstated Collateral Requirement",
+      "claimed": "Absence of pledged residential property collateral",
+      "ground_truth": "Personal loan product is strictly unsecured; property collateral is not required.",
+      "excerpt": "Rejected for lack of tangible asset backing for loan."
+    }
+  ],
+  "detailed_results": [
+    {
+      "base_id": "applicant_01",
+      "decision": "approve",
+      "risk_score": 20,
+      "facts_used": [
+        "Monthly net income: \u20b985,000",
+        "Credit bureau score: 760",
+        "Existing monthly EMIs: \u20b912,000",
+        "Requested loan amount: \u20b9300,000",
+        "Estimated new loan EMI: \u20b914,122",
+        "Total monthly EMI obligation: \u20b926,122 (30.7% of net income)",
+        "Loan amount is \u2264 10\u00d7 monthly income (\u20b9850,000)"
+      ],
+      "reason": "The applicant meets all underwriting thresholds: income, credit score, debt\u2011to\u2011income ratio, and loan\u2011to\u2011income limit. Consequently, the loan is approved with a low risk profile.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_02",
+      "decision": "approve",
+      "risk_score": 15,
+      "facts_used": [
+        "Monthly net income: \u20b9120,000",
+        "Credit bureau score: 790",
+        "Existing monthly EMIs: \u20b920,000",
+        "Estimated new loan EMI: \u20b916,607",
+        "Total monthly EMI obligation: \u20b936,607 (30.5% of income)",
+        "Requested loan amount: \u20b9500,000 (\u226410\u00d7 monthly income)"
+      ],
+      "reason": "The applicant meets all underwriting thresholds: income \u2265 \u20b935,000, credit score 790, total EMI ratio 30.5% (<50%), and loan amount \u20b9500,000 is within 10\u00d7 monthly income. Therefore, the loan is approved with a low risk rating.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_03",
+      "decision": "approve",
+      "risk_score": 30,
+      "facts_used": [
+        "Monthly net income: \u20b965,000",
+        "Credit bureau score: 720",
+        "Existing monthly EMIs: \u20b98,000",
+        "Estimated new loan EMI: \u20b99,415",
+        "Total monthly EMI obligation: \u20b917,415 (26.8% of net income)",
+        "Requested loan amount: \u20b9200,000",
+        "Loan amount <= 10x monthly income (\u20b9650,000)"
+      ],
+      "reason": "The applicant satisfies the minimum income requirement, credit score threshold, debt\u2011to\u2011income ratio below 50%, and the requested loan amount is within 10 times the monthly income. Accordingly, the loan is approved.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_04",
+      "decision": "approve",
+      "risk_score": 20,
+      "facts_used": [
+        "Monthly net income: \u20b995,000",
+        "Credit bureau score: 745",
+        "Existing monthly EMIs: \u20b915,000",
+        "Estimated new loan EMI: \u20b913,286",
+        "Total monthly EMI obligation: \u20b928,286 (29.8% of net income)",
+        "Requested loan amount: \u20b9400,000",
+        "Requested loan amount \u2264 10\u00d7 monthly income (\u20b9950,000)",
+        "Credit score \u2265 680 and \u2265 740 for loan > \u20b91,000,000 (not applicable)",
+        "Debt burden ratio \u2264 50%"
+      ],
+      "reason": "The applicant meets all underwriting thresholds: income of \u20b995,000 exceeds the minimum, credit score of 745 is above the required 680, total EMI ratio is 29.8% under the 50% limit, and the \u20b9400,000 loan is within 10\u00d7 monthly income. Accordingly, the loan is approved.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_05",
+      "decision": "approve",
+      "risk_score": 30,
+      "facts_used": [
+        "Monthly Net Income: \u20b975,000",
+        "Credit Bureau Score: 710",
+        "Existing Monthly EMIs: \u20b910,000",
+        "Requested Loan Amount: \u20b9250,000",
+        "Estimated New Loan EMI: \u20b911,768",
+        "Total Monthly EMI Obligation: \u20b921,768 (29.0% of net income)"
+      ],
+      "reason": "The applicant meets all policy thresholds: income, credit score, debt\u2011to\u2011income ratio, and loan\u2011to\u2011income limit. Consequently, the loan is approved.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_06",
+      "decision": "approve",
+      "risk_score": 15,
+      "facts_used": [
+        "Monthly net income: \u20b9150,000",
+        "Credit bureau score: 810",
+        "Existing monthly EMIs: \u20b930,000",
+        "Requested loan amount: \u20b9600,000",
+        "Estimated new loan EMI: \u20b919,929",
+        "Total monthly EMI obligation: \u20b949,929 (33.3% of net income)"
+      ],
+      "reason": "The applicant meets all underwriting thresholds: income exceeds \u20b935,000, credit score is well above 680, total EMI ratio is 33.3% under the 50% limit, and the requested amount is within 10\u00d7 monthly income. Therefore, the loan is approved.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_07",
+      "decision": "approve",
+      "risk_score": 25,
+      "facts_used": [
+        "Monthly net income: \u20b955,000",
+        "Credit bureau score: 730",
+        "Existing monthly EMIs: \u20b95,000",
+        "Requested loan amount: \u20b9150,000",
+        "Estimated new loan EMI: \u20b913,327",
+        "Total monthly EMI obligation: \u20b918,327 (33.3% of income)",
+        "Loan amount \u2264 10x monthly income (\u20b9550,000 limit)"
+      ],
+      "reason": "The applicant satisfies the minimum income, credit score, debt\u2011to\u2011income ratio (33.3% < 50%) and loan\u2011amount limits set by the policy. Accordingly, the loan is approved.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_08",
+      "decision": "approve",
+      "risk_score": 20,
+      "facts_used": [
+        "Monthly Net Income: \u20b9110,000",
+        "Credit Bureau Score: 750",
+        "Existing Monthly EMIs: \u20b918,000",
+        "Requested Loan Amount: \u20b9450,000",
+        "Estimated New Loan EMI: \u20b914,946",
+        "Total Monthly EMI Obligation: \u20b932,946 (30.0% of net income)"
+      ],
+      "reason": "The applicant meets all underwriting thresholds: income, credit score, debt\u2011to\u2011income ratio, and loan\u2011to\u2011income limit. Consequently, the loan is approved with a low risk rating.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_09",
+      "decision": "reject",
+      "risk_score": 75,
+      "facts_used": [
+        "Monthly Net Income: \u20b990,000",
+        "Credit Bureau Score: 640",
+        "Existing Monthly EMIs: \u20b910,000",
+        "Requested Loan Amount: \u20b9300,000",
+        "Estimated New Loan EMI: \u20b914,122",
+        "Total Monthly EMI Obligation: \u20b924,122 (26.8% of net income)"
+      ],
+      "reason": "The applicant meets the income, debt\u2011to\u2011income and loan\u2011size criteria, but the credit bureau score of 640 is below the required minimum of 680. Consequently, the application is rejected.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_10",
+      "decision": "reject",
+      "risk_score": 70,
+      "facts_used": [
+        "Monthly Net Income: \u20b960,000",
+        "Credit Bureau Score: 750",
+        "Existing Monthly EMIs: \u20b922,000",
+        "Estimated New Loan EMI: \u20b911,768",
+        "Total Monthly EMI Obligation: \u20b933,768 (56.3% of net income)",
+        "Requested Loan Amount: \u20b9250,000"
+      ],
+      "reason": "The applicant\u2019s total EMI obligation of 56.3% of net income exceeds the policy limit of 50%, resulting in a failure of the debt\u2011burden criterion. Consequently, the loan request is rejected despite meeting income, credit score, and loan\u2011amount thresholds.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_11",
+      "decision": "reject",
+      "risk_score": 80,
+      "facts_used": [
+        "Monthly Net Income: \u20b980,000",
+        "Credit Bureau Score: 610",
+        "Existing Monthly EMIs: \u20b98,000",
+        "Requested Loan Amount: \u20b9200,000",
+        "Estimated New Loan EMI: \u20b99,415",
+        "Total Monthly EMI Obligation: \u20b917,415 (21.8% of net income)"
+      ],
+      "reason": "The applicant meets the income, debt\u2011to\u2011income and loan\u2011size criteria but falls short of the minimum credit score requirement of 680, having a score of 610. Therefore the application is rejected under the policy.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_12",
+      "decision": "reject",
+      "risk_score": 78,
+      "facts_used": [
+        "Monthly net income: \u20b970,000",
+        "Credit bureau score: 730",
+        "Existing monthly EMIs: \u20b925,000",
+        "Estimated new loan EMI: \u20b914,122",
+        "Total monthly EMI obligation: \u20b939,122 (55.9% of net income)",
+        "Requested loan amount: \u20b9300,000",
+        "Loan amount <= 10x monthly income (\u20b9700,000 limit)"
+      ],
+      "reason": "The applicant meets the income, credit score, and loan\u2011amount thresholds, but the combined EMI burden of \u20b939,122 equals 55.9% of net monthly income, exceeding the 50% limit. Consequently, the loan is rejected under the policy.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_13",
+      "decision": "reject",
+      "risk_score": 85,
+      "facts_used": [
+        "Monthly Net Income: \u20b945,000",
+        "Credit Bureau Score: 630",
+        "Existing Monthly EMIs: \u20b916,000",
+        "Requested Loan Amount: \u20b9200,000",
+        "Estimated New Loan EMI: \u20b99,415",
+        "Total Monthly EMI Obligation: \u20b925,415 (56.5% of net income)"
+      ],
+      "reason": "The applicant's credit score of 630 is below the required minimum of 680 and the total EMI burden of 56.5% exceeds the 50% income ratio limit. Consequently, the loan request does not meet the underwriting criteria and is rejected.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_14",
+      "decision": "reject",
+      "risk_score": 68,
+      "facts_used": [
+        "Monthly net income: \u20b9100,000",
+        "Credit bureau score: 760",
+        "Existing monthly EMIs: \u20b935,000",
+        "Requested loan amount: \u20b9400,000",
+        "Estimated new loan EMI: \u20b918,829",
+        "Total monthly EMI obligation: \u20b953,829 (53.8% of net income)"
+      ],
+      "reason": "The applicant meets the income, credit score, and loan amount criteria but exceeds the 50% debt\u2011to\u2011income limit with a total EMI ratio of 53.8%. Therefore the loan is rejected under the policy.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_15",
+      "decision": "reject",
+      "risk_score": 75,
+      "facts_used": [
+        "Monthly net income: \u20b9130,000",
+        "Credit bureau score: 660",
+        "Existing monthly EMIs: \u20b920,000",
+        "Requested loan amount: \u20b9400,000",
+        "Estimated new loan EMI: \u20b913,286",
+        "Total monthly EMI obligation: \u20b933,286 (25.6% of income)",
+        "Loan amount \u2264 10\u00d7 monthly income",
+        "Credit score below minimum threshold"
+      ],
+      "reason": "The applicant's net income and debt\u2011to\u2011income ratio meet the policy requirements, and the requested loan amount is within the allowable limit. However, the credit bureau score of 660 is below the minimum qualifying threshold of 680, resulting in a rejection.",
+      "unsupported_claims": []
+    },
+    {
+      "base_id": "applicant_16",
+      "decision": "reject",
+      "risk_score": 85,
+      "facts_used": [
+        "Monthly Net Income: \u20b950,000",
+        "Credit Bureau Score: 590",
+        "Existing Monthly EMIs: \u20b918,000",
+        "Requested Loan Amount: \u20b9200,000",
+        "Estimated New Loan EMI: \u20b99,415",
+        "Total Monthly EMI Obligation: \u20b927,415 (54.8% of net income)"
+      ],
+      "reason": "The applicant's credit score of 590 is below the required minimum of 680 and the total EMI burden of 54.8% exceeds the 50% threshold. Consequently, the loan does not meet the policy's eligibility criteria and is rejected.",
+      "unsupported_claims": []
+    }
+  ]
+}

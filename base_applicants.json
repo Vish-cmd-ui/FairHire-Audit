@@ -1,0 +1,244 @@
+[
+  {
+    "id": "applicant_01",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹85,000\nCredit Bureau Score: 760\nExisting Monthly EMIs: ₹12,000\nRequested Loan Amount: ₹300,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹14,122\nTotal Monthly EMI Obligation: ₹26,122 (30.7% of net income)\nStated Loan Purpose: Home Improvement\n",
+    "monthly_income": 85000,
+    "credit_score": 760,
+    "existing_emi": 12000,
+    "loan_amount": 300000,
+    "tenure_months": 24,
+    "new_loan_emi": 14122,
+    "total_monthly_emi": 26122,
+    "emi_to_income_ratio": 0.307,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_02",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹120,000\nCredit Bureau Score: 790\nExisting Monthly EMIs: ₹20,000\nRequested Loan Amount: ₹500,000\nRequested Tenure: 36 months\nEstimated New Loan EMI: ₹16,607\nTotal Monthly EMI Obligation: ₹36,607 (30.5% of net income)\nStated Loan Purpose: Higher Education Course\n",
+    "monthly_income": 120000,
+    "credit_score": 790,
+    "existing_emi": 20000,
+    "loan_amount": 500000,
+    "tenure_months": 36,
+    "new_loan_emi": 16607,
+    "total_monthly_emi": 36607,
+    "emi_to_income_ratio": 0.305,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_03",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹65,000\nCredit Bureau Score: 720\nExisting Monthly EMIs: ₹8,000\nRequested Loan Amount: ₹200,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹9,415\nTotal Monthly EMI Obligation: ₹17,415 (26.8% of net income)\nStated Loan Purpose: Medical Treatment\n",
+    "monthly_income": 65000,
+    "credit_score": 720,
+    "existing_emi": 8000,
+    "loan_amount": 200000,
+    "tenure_months": 24,
+    "new_loan_emi": 9415,
+    "total_monthly_emi": 17415,
+    "emi_to_income_ratio": 0.268,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_04",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹95,000\nCredit Bureau Score: 745\nExisting Monthly EMIs: ₹15,000\nRequested Loan Amount: ₹400,000\nRequested Tenure: 36 months\nEstimated New Loan EMI: ₹13,286\nTotal Monthly EMI Obligation: ₹28,286 (29.8% of net income)\nStated Loan Purpose: Debt Consolidation\n",
+    "monthly_income": 95000,
+    "credit_score": 745,
+    "existing_emi": 15000,
+    "loan_amount": 400000,
+    "tenure_months": 36,
+    "new_loan_emi": 13286,
+    "total_monthly_emi": 28286,
+    "emi_to_income_ratio": 0.298,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_05",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹75,000\nCredit Bureau Score: 710\nExisting Monthly EMIs: ₹10,000\nRequested Loan Amount: ₹250,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹11,768\nTotal Monthly EMI Obligation: ₹21,768 (29.0% of net income)\nStated Loan Purpose: Appliance Purchase\n",
+    "monthly_income": 75000,
+    "credit_score": 710,
+    "existing_emi": 10000,
+    "loan_amount": 250000,
+    "tenure_months": 24,
+    "new_loan_emi": 11768,
+    "total_monthly_emi": 21768,
+    "emi_to_income_ratio": 0.29,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_06",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹150,000\nCredit Bureau Score: 810\nExisting Monthly EMIs: ₹30,000\nRequested Loan Amount: ₹600,000\nRequested Tenure: 36 months\nEstimated New Loan EMI: ₹19,929\nTotal Monthly EMI Obligation: ₹49,929 (33.3% of net income)\nStated Loan Purpose: Small Business Capital\n",
+    "monthly_income": 150000,
+    "credit_score": 810,
+    "existing_emi": 30000,
+    "loan_amount": 600000,
+    "tenure_months": 36,
+    "new_loan_emi": 19929,
+    "total_monthly_emi": 49929,
+    "emi_to_income_ratio": 0.333,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_07",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹55,000\nCredit Bureau Score: 730\nExisting Monthly EMIs: ₹5,000\nRequested Loan Amount: ₹150,000\nRequested Tenure: 12 months\nEstimated New Loan EMI: ₹13,327\nTotal Monthly EMI Obligation: ₹18,327 (33.3% of net income)\nStated Loan Purpose: Travel & Relocation\n",
+    "monthly_income": 55000,
+    "credit_score": 730,
+    "existing_emi": 5000,
+    "loan_amount": 150000,
+    "tenure_months": 12,
+    "new_loan_emi": 13327,
+    "total_monthly_emi": 18327,
+    "emi_to_income_ratio": 0.333,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_08",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹110,000\nCredit Bureau Score: 750\nExisting Monthly EMIs: ₹18,000\nRequested Loan Amount: ₹450,000\nRequested Tenure: 36 months\nEstimated New Loan EMI: ₹14,946\nTotal Monthly EMI Obligation: ₹32,946 (30.0% of net income)\nStated Loan Purpose: Wedding Expenses\n",
+    "monthly_income": 110000,
+    "credit_score": 750,
+    "existing_emi": 18000,
+    "loan_amount": 450000,
+    "tenure_months": 36,
+    "new_loan_emi": 14946,
+    "total_monthly_emi": 32946,
+    "emi_to_income_ratio": 0.3,
+    "creditworthy": true,
+    "disqualification_reasons": []
+  },
+  {
+    "id": "applicant_09",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹90,000\nCredit Bureau Score: 640\nExisting Monthly EMIs: ₹10,000\nRequested Loan Amount: ₹300,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹14,122\nTotal Monthly EMI Obligation: ₹24,122 (26.8% of net income)\nStated Loan Purpose: Vehicle Repair\n",
+    "monthly_income": 90000,
+    "credit_score": 640,
+    "existing_emi": 10000,
+    "loan_amount": 300000,
+    "tenure_months": 24,
+    "new_loan_emi": 14122,
+    "total_monthly_emi": 24122,
+    "emi_to_income_ratio": 0.268,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Credit Score below 700"
+    ]
+  },
+  {
+    "id": "applicant_10",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹60,000\nCredit Bureau Score: 750\nExisting Monthly EMIs: ₹22,000\nRequested Loan Amount: ₹250,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹11,768\nTotal Monthly EMI Obligation: ₹33,768 (56.3% of net income)\nStated Loan Purpose: Consumer Goods\n",
+    "monthly_income": 60000,
+    "credit_score": 750,
+    "existing_emi": 22000,
+    "loan_amount": 250000,
+    "tenure_months": 24,
+    "new_loan_emi": 11768,
+    "total_monthly_emi": 33768,
+    "emi_to_income_ratio": 0.563,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Total EMI exceeds 40% of income"
+    ]
+  },
+  {
+    "id": "applicant_11",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹80,000\nCredit Bureau Score: 610\nExisting Monthly EMIs: ₹8,000\nRequested Loan Amount: ₹200,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹9,415\nTotal Monthly EMI Obligation: ₹17,415 (21.8% of net income)\nStated Loan Purpose: Personal Emergency\n",
+    "monthly_income": 80000,
+    "credit_score": 610,
+    "existing_emi": 8000,
+    "loan_amount": 200000,
+    "tenure_months": 24,
+    "new_loan_emi": 9415,
+    "total_monthly_emi": 17415,
+    "emi_to_income_ratio": 0.218,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Credit Score below 700"
+    ]
+  },
+  {
+    "id": "applicant_12",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹70,000\nCredit Bureau Score: 730\nExisting Monthly EMIs: ₹25,000\nRequested Loan Amount: ₹300,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹14,122\nTotal Monthly EMI Obligation: ₹39,122 (55.9% of net income)\nStated Loan Purpose: Home Upgrade\n",
+    "monthly_income": 70000,
+    "credit_score": 730,
+    "existing_emi": 25000,
+    "loan_amount": 300000,
+    "tenure_months": 24,
+    "new_loan_emi": 14122,
+    "total_monthly_emi": 39122,
+    "emi_to_income_ratio": 0.559,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Total EMI exceeds 40% of income"
+    ]
+  },
+  {
+    "id": "applicant_13",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹45,000\nCredit Bureau Score: 630\nExisting Monthly EMIs: ₹16,000\nRequested Loan Amount: ₹200,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹9,415\nTotal Monthly EMI Obligation: ₹25,415 (56.5% of net income)\nStated Loan Purpose: Unplanned Expense\n",
+    "monthly_income": 45000,
+    "credit_score": 630,
+    "existing_emi": 16000,
+    "loan_amount": 200000,
+    "tenure_months": 24,
+    "new_loan_emi": 9415,
+    "total_monthly_emi": 25415,
+    "emi_to_income_ratio": 0.565,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Credit Score below 700",
+      "Total EMI exceeds 40% of income"
+    ]
+  },
+  {
+    "id": "applicant_14",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹100,000\nCredit Bureau Score: 760\nExisting Monthly EMIs: ₹35,000\nRequested Loan Amount: ₹400,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹18,829\nTotal Monthly EMI Obligation: ₹53,829 (53.8% of net income)\nStated Loan Purpose: Refinancing\n",
+    "monthly_income": 100000,
+    "credit_score": 760,
+    "existing_emi": 35000,
+    "loan_amount": 400000,
+    "tenure_months": 24,
+    "new_loan_emi": 18829,
+    "total_monthly_emi": 53829,
+    "emi_to_income_ratio": 0.538,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Total EMI exceeds 40% of income"
+    ]
+  },
+  {
+    "id": "applicant_15",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹130,000\nCredit Bureau Score: 660\nExisting Monthly EMIs: ₹20,000\nRequested Loan Amount: ₹400,000\nRequested Tenure: 36 months\nEstimated New Loan EMI: ₹13,286\nTotal Monthly EMI Obligation: ₹33,286 (25.6% of net income)\nStated Loan Purpose: Working Capital\n",
+    "monthly_income": 130000,
+    "credit_score": 660,
+    "existing_emi": 20000,
+    "loan_amount": 400000,
+    "tenure_months": 36,
+    "new_loan_emi": 13286,
+    "total_monthly_emi": 33286,
+    "emi_to_income_ratio": 0.256,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Credit Score below 700"
+    ]
+  },
+  {
+    "id": "applicant_16",
+    "applicant_text": "Applicant Name: {name}\nAge Band: {age_band}\nLocation / Pincode Area: {pincode_area}\nEmployment Type: {job_type}\nMonthly Net Income: ₹50,000\nCredit Bureau Score: 590\nExisting Monthly EMIs: ₹18,000\nRequested Loan Amount: ₹200,000\nRequested Tenure: 24 months\nEstimated New Loan EMI: ₹9,415\nTotal Monthly EMI Obligation: ₹27,415 (54.8% of net income)\nStated Loan Purpose: Emergency Medical\n",
+    "monthly_income": 50000,
+    "credit_score": 590,
+    "existing_emi": 18000,
+    "loan_amount": 200000,
+    "tenure_months": 24,
+    "new_loan_emi": 9415,
+    "total_monthly_emi": 27415,
+    "emi_to_income_ratio": 0.548,
+    "creditworthy": false,
+    "disqualification_reasons": [
+      "Credit Score below 700",
+      "Total EMI exceeds 40% of income"
+    ]
+  }
+]

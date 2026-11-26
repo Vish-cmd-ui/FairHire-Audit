@@ -1,0 +1,6 @@
+{
+  "total_loans_audited": 10,
+  "unsecured_trap_loans": 4,
+  "trap_falsely_claimed_collateral": 0,
+  "hallucination_rate": 0.0
+}
